@@ -136,6 +136,7 @@ GROUP BY Category
 ORDER BY Total_Sales DESC;
 
 -- shows the frequency of purchase for each customer
+
 SELECT 
   CustomerID,
   COUNT(OrderID) AS Purchase_Frequency
